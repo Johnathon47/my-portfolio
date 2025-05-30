@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Sora } from "next/font/google";
+import { Azeret_Mono } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/NavBar/ResponsiveNav";
 
 
-const font = Sora({
+const font = Azeret_Mono({
   weight:['100', '200','300'],
   subsets:["latin"]
 })
